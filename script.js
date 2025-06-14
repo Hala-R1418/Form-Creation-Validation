@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             // Join error messages with line breaks and display in the feedback div
             feedbackDiv.innerHTML = messages.join("<br>");
-            feedbackDiv.style.color = "#d8000c";  // Red color for errors
+            feedbackDiv.style.color = "#dc3545";  // Red color for errors
             feedbackDiv.style.backgroundColor = "#ffbaba";  // Light red background
         }
     });
